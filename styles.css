@@ -1,3 +1,7 @@
+/* 
+ * clean up at a later date
+ */
+
 *,
 ::before,
 ::after {
@@ -46,6 +50,11 @@ body, header {
 
 .nav-link {
 	margin: 0 10px;
+}
+
+.nav-link a {
+	text-decoration: none;
+	color: black;
 }
 
 #main-doc {
