@@ -10,7 +10,7 @@
 	box-sizing: border-box;
 }
 
-body {
+html {
 	color: #888;
 	font-family: sans-serif;
 }
@@ -57,10 +57,9 @@ body, header {
 	color: black;
 }
 
-#main-doc {
+main {
 	position: absolute;
-	margin: 0 auto;
-	margin-top: 6rem;
+	margin: 6rem auto 3rem;
 	padding: 0 10rem;
 	overflow-y: hidden;
 }
@@ -129,4 +128,12 @@ body, header {
 	margin: 10px 15px;
 	padding: 30px;
 	border-radius: 40px;
+}
+
+/* contact.html */
+#contact-form {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 1em;
 }
