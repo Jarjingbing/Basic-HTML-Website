@@ -59,19 +59,25 @@ body, header {
 
 main {
 	position: absolute;
-	margin: 6rem auto 3rem;
+	width: 100vw;
+	margin: 6rem auto;
 	padding: 0 10rem;
 	overflow-y: hidden;
 }
 
 .section {
-	text-align: center;
 	border: 1px solid #888;
-	padding: 1rem;
+	padding: 1.5rem;
+}
+
+.section h1 {
+	margin: 1rem auto;
 }
 
 #banner {
 	padding: 100px;
+	text-align: center;
+	height: 300px;
 }
 
 #middle, #bottom {
@@ -115,12 +121,16 @@ main {
 
 #reviews {
 	width: 100%;
-	display: flex;
-	align-items: start;
+}
+
+#reviews h1{
+	margin-left: 50px;
 }
 
 #reviews ul {
 	margin: 0 40px;
+	display: flex;
+	align-items: start;
 }
 
 .review-item {
